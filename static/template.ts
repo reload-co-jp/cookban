@@ -18,16 +18,30 @@ const menu = {
           cost: 500,
         },
         {
+          title: "アイスティー",
+          unit: "杯",
+          description: null,
+          quantity: "300ml",
+          cost: 500,
+        },
+        {
+          title: "ホットティー",
+          unit: "杯",
+          description: null,
+          quantity: "200ml",
+          cost: 500,
+        },
+        {
           title: "ルイボスティー",
           unit: "杯",
-          description: "アイス（水出し）",
+          description: null,
           quantity: "300ml",
           cost: 500,
         },
         {
           title: "ジャスミンティー",
           unit: "杯",
-          description: "アイス（水出し）",
+          description: null,
           quantity: "300ml",
           cost: 500,
         },
@@ -44,11 +58,11 @@ const menu = {
           cost: 500,
         },
         {
-          title: "ビール",
+          title: "クラフトビール",
           unit: "杯",
-          description: "シンハー",
-          quantity: "334ml",
-          cost: 500,
+          description: "別紙参照",
+          quantity: "300ml",
+          cost: 700,
         },
         {
           title: "ハイボール",
@@ -60,7 +74,14 @@ const menu = {
         {
           title: "酎ハイ",
           unit: "杯",
-          description: "宝山",
+          description: null,
+          quantity: "300ml",
+          cost: 500,
+        },
+        {
+          title: "レモンサワー",
+          unit: "杯",
+          description: null,
           quantity: "300ml",
           cost: 500,
         },
@@ -71,6 +92,13 @@ const menu = {
       items: [
         {
           title: "ミックスナッツ",
+          unit: "皿",
+          description: null,
+          quantity: "1",
+          cost: 300,
+        },
+        {
+          title: "サラミ",
           unit: "皿",
           description: null,
           quantity: "1",
