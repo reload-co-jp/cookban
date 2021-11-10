@@ -50,7 +50,8 @@ h3 {
   font-size: .75rem;
   padding: 0 .5rem;
   data {
-  display: block;
-  text-align: right;
+    display: block;
+    font-size: 1.75rem;
+    text-align: right;
 }
 `
