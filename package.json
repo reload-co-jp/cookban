@@ -4,6 +4,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build && next export",
+    "build:prod": "NODE_ENV=production next build && next export",
     "lint": "eslint ./**/*.{ts,tsx}",
     "test": "jest --passWithNoTests",
     "prepare": "husky install"
