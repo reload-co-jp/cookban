@@ -1,7 +1,7 @@
 const menu = {
   sections: [
     {
-      section: { title: "カフェ" },
+      section: { title: "ソフトドリンク" },
       items: [
         {
           title: "アイスコーヒー",
@@ -88,7 +88,7 @@ const menu = {
       ],
     },
     {
-      section: { title: "スナック" },
+      section: { title: "フード" },
       items: [
         {
           title: "ミックスナッツ",
