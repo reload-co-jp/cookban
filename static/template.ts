@@ -88,7 +88,7 @@ const menu = {
       ],
     },
     {
-      section: { title: "フード" },
+      section: { title: "スナック" },
       items: [
         {
           title: "ミックスナッツ",
