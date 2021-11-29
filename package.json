@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/reload-co-jp/cookban#readme",
   "dependencies": {
+    "axios": "^0.24.0",
     "next": "^11.1.2",
     "normalize.css": "^8.0.1",
     "react": "^17.0.2",
