@@ -2,7 +2,7 @@ import Styled from "styled-components"
 
 export const Container = Styled.div`
 margin: auto;
-max-width: 1200px;
+max-width: 1500px;
 `
 
 export const Main = Styled.main`
@@ -24,7 +24,7 @@ display: flex;
 
 export const Section = Styled.section`
 width: 100%;
-max-width: calc(600px - .5rem);
+max-width: min(33%, calc(500px - 1rem));
 padding: .5rem;
 h2 {
   font-size: 1.25rem;
@@ -38,7 +38,7 @@ export const ItemCard = Styled.section`
 background: #242424;
 box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.3);
 margin-bottom: .5rem;
-padding: 1.25rem;
+padding: 1.25rem 1rem .75rem;
 &:hover {
   background: #121212;
 }
