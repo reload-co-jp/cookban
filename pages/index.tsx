@@ -106,11 +106,6 @@ IndexPage.getInitialProps = async () => {
   } = await axios.get<GoogleSpreadSheetAPIResponse>(
     `https://sheets.googleapis.com/v4/spreadsheets/${sheetId}/values/display?key=${apiKey}`
   )
-  console.log(
-    values[0],
-    spreadSheetHeader,
-    JSON.stringify(values[0]) == JSON.stringify(spreadSheetHeader)
-  )
   if (JSON.stringify(values[0]) !== JSON.stringify(spreadSheetHeader))
     throw "Invaid item data"
   const body = values.slice(1)
