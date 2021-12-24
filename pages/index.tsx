@@ -100,7 +100,7 @@ const IndexPage = ({ items }: { items: SectionItem[] }): React.ReactElement => {
 
 IndexPage.getInitialProps = async () => {
   const sheetId = "1aO8CTHypzIFW03MTeVd9QG-Jmamr1u0k1oWtv_Pid2Q"
-  const apiKey = "AIzaSyBDnxoVuIaOx2bD7If7RijXSmS97Mydg6s"
+  const apiKey = "AIzaSyB5vVtz0TRgDQNmStjQG5eTf-lcYFL-G-E"
   const {
     data: { values },
   } = await axios.get<GoogleSpreadSheetAPIResponse>(
