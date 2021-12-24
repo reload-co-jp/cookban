@@ -2,56 +2,71 @@ import Styled from "styled-components"
 
 export const Container = Styled.div`
 margin: auto;
-max-width: 1500px;
+max-width: 1000px;
 `
 
 export const Main = Styled.main`
 min-height: 100vh;
 &.is-dark {
-  background: #363636;
-  color: #f0f0f0;
+  background: #d9d9d9;
+  color: #242424;
 }
 `
 
 export const Content = Styled.section`
 padding: .5rem;
 display: flex;
-    flex-wrap: wrap;
+gap: 1rem .5rem;
+flex-wrap: wrap;
+justify-content: space-around;
 &.is-large {
   padding: 3rem .5rem;
 }
 `
 
 export const Section = Styled.section`
+background: #f0f0e9;
+box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.3);
 width: 100%;
-max-width: min(33%, calc(500px - 1rem));
-padding: .5rem;
+padding: .25rem;
 h2 {
   font-size: 1.25rem;
-  border-bottom: solid 1px #f0f0f0;
-  margin: .25rem;
-  padding-bottom: .5rem;
+  border-bottom: solid 1px #603030;
+  margin: 0;
+  padding: .5rem;
 }
 `
 
 export const ItemCard = Styled.section`
-background: #242424;
-box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.3);
+color: #603030;
 margin-bottom: .5rem;
-padding: 1.25rem 1rem .75rem;
-&:hover {
-  background: #121212;
+padding: .75rem 1rem .5rem;
+position: relative;
+&:hover .title {
+  border-color: #403040;
 }
-h3 {
-  font-size: 1.5rem;
-  margin: 0rem;
-}
-.content {
-  font-size: .75rem;
-  padding: 0 .5rem;
+.title {
+  border-bottom: solid 2px transparent;
+  display: flex;
+  justify-content: space-between;
+  padding: .25rem 0;
+  h3 {
+    color: #403040;
+    font-size: 1.75rem;
+    margin: 0rem;
+  }
   data {
     display: block;
     font-size: 1.75rem;
     text-align: right;
+  }
+}
+.content {
+  font-size: 1.25rem;
+  padding-top: .5rem;
+  p {
+    margin: 0;
+    padding-bottom: .25rem;
+  }
 }
 `

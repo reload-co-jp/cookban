@@ -81,10 +81,15 @@ const IndexPage = ({ items }: { items: SectionItem[] }): React.ReactElement => {
                   <h2>{section.name}</h2>
                   {section.items.map((item) => (
                     <ItemCard key={item.title}>
-                      <h3>{item.title}</h3>
-                      <div className="content">
-                        {item.description && <p>{item.description}</p>}
+                      <div className="title">
+                        <h3>{item.title}</h3>
                         <data>{item.cost}円</data>
+                      </div>
+                      <div className="content">
+                        {item.description &&
+                          item.description
+                            .split("\n")
+                            .map((row, i) => <p key={i}>{row}</p>)}
                       </div>
                     </ItemCard>
                   ))}
