@@ -8,8 +8,7 @@ max-width: 1000px;
 export const Main = Styled.main`
 min-height: 100vh;
 &.is-dark {
-  background: #d9d9d9;
-  color: #242424;
+  background: #666;
 }
 `
 
@@ -20,30 +19,31 @@ gap: 1rem .5rem;
 flex-wrap: wrap;
 justify-content: space-around;
 &.is-large {
-  padding: 3rem .5rem;
+  padding: .5rem;
 }
 `
 
 export const Section = Styled.section`
-background: #f0f0e9;
+background: #111;
 box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.3);
+color: #aaa;
 width: 100%;
 padding: .25rem;
 h2 {
   font-size: 1.25rem;
-  border-bottom: solid 1px #603030;
+  border-bottom: solid 1px #303030;
   margin: 0;
   padding: .5rem;
 }
 `
 
 export const ItemCard = Styled.section`
-color: #603030;
+color: #ccc;
 margin-bottom: .5rem;
 padding: .75rem 1rem .5rem;
 position: relative;
 &:hover .title {
-  border-color: #403040;
+  border-color: #bfb;
 }
 .title {
   border-bottom: solid 2px transparent;
@@ -51,7 +51,7 @@ position: relative;
   justify-content: space-between;
   padding: .25rem 0;
   h3 {
-    color: #403040;
+    color: #beb;
     font-size: 1.75rem;
     margin: 0rem;
   }
